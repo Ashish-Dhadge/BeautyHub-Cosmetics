@@ -4,8 +4,8 @@ import javax.mail.internet.*;
 
 public class EmailUtil {
 
-    private static final String FROM_EMAIL = "dhadgeashish@gmail.com";
-    private static final String PASSWORD = "zqhigzswygybtbre";
+    private static final String FROM_EMAIL = "yourmail@gmail.com";
+    private static final String PASSWORD = "emailpassword";
     /* ================= BASIC EMAIL ================= */
     public static void sendSimpleMail(String to, String subject, String messageText)
             throws Exception {
